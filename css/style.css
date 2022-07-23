@@ -1,0 +1,26 @@
+.iumage {
+    background-repeat: no-repeat;
+}
+
+.test {
+    border: 3px solid red;
+    box-sizing: border-box;
+
+    
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        width: 8rem;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ;
+    }
+}
+
+body{
+    /* min-width: 1440px; */
+    background: #000;
+}
