@@ -5,22 +5,28 @@
 .test {
     border: 3px solid red;
     box-sizing: border-box;
-
-    
 }
 
 @media (max-width: 768px) {
     .card-container {
-        width: 8rem;
+        width: 80%;
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        ;
     }
 }
 
-body{
-    /* min-width: 1440px; */
-    background: #000;
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-width{
+    width: 32rem
+}
+body {
+    /* border: 3px solid red; */
 }
