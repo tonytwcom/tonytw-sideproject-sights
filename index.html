@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>tonytw-sideproject-sights</title>
+        <title>台灣熱門景點資訊</title>
         <link rel="stylesheet" href="../reset.css" />
         <link rel="stylesheet" href="style.css" />
         <link
@@ -17,6 +17,39 @@
     </head>
     <body>
         <header class="container-fluid p-0">
+            <!-- Background image -->
+            <div
+                class="container-fluid text-center bg-image d-flex align-items-center justify-content-center"
+                style="
+                    background-image: url('/img/header-img.jpg');
+                    height: 400px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                "
+            >
+                <div
+                    class="mask px-5 py-3"
+                    style="background-color: rgba(0, 0, 0, 0.6)"
+                >
+                    <div
+                        class="d-flex justify-content-center align-items-center h-100"
+                    >
+                        <div class="text-white">
+                            <h1 class="mb-3">台灣熱門景點資訊</h1>
+                            <h5 class="mb-3">看見不一樣的台灣</h5>
+                            <a
+                                class="btn btn-outline-light btn-lg"
+                                href="#!"
+                                role="button"
+                                >了解更多</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Background image -->
+
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -52,39 +85,6 @@
                 </div>
             </nav>
             <!-- Navbar -->
-
-            <!-- Background image -->
-            <div
-                class="container-fluid text-center bg-image d-flex align-items-center justify-content-center"
-                style="
-                    background-image: url('/img/header-img.jpg');
-                    height: 400px;
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                "
-            >
-                <div
-                    class="mask px-5 py-3"
-                    style="background-color: rgba(0, 0, 0, 0.6)"
-                >
-                    <div
-                        class="d-flex justify-content-center align-items-center h-100"
-                    >
-                        <div class="text-white">
-                            <h1 class="mb-3">台灣熱門景點資訊</h1>
-                            <h5 class="mb-3">看見不一樣的台灣</h5>
-                            <a
-                                class="btn btn-outline-light btn-lg"
-                                href="#!"
-                                role="button"
-                                >了解更多</a
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Background image -->
         </header>
 
         <div class="container-fluid blog">
@@ -159,9 +159,7 @@
                 </aside>
 
                 <!-- article -->
-                <article
-                    class="container-fluid col-12 col-md-10 p-0 py-5 d-flex align-items-center justify-content-center"
-                >
+                <article class="container-fluid col-12 col-md-10 p-0 py-5">
                     <!-- card container  -->
                     <div class="row col-12 m-0 card-container">
                         <!-- cards -->
@@ -301,6 +299,28 @@
                     <!-- cards -->
                 </article>
             </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Pagination -->
         </div>
         <!-- blog -->
 
