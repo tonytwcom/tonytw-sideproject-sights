@@ -1,4 +1,5 @@
 $(function () {
+
     $.ajax({
         type: 'GET',
         url: '../upload/sights-data.json',
@@ -9,7 +10,7 @@ $(function () {
                 let finalData = [];
                 theData = raws.Infos.Info; // 替代文字
                 let xx = '';
-                for (let index = 0; index < count; index++) {
+                for (let index = 0; index < 30; index++) {
                     // console.log(' 景點：' + theData[index].Name);
                     // console.log(' 地址： ' + theData[index].Add);
                     if (theData[index].Description == null) {
